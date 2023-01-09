@@ -8,5 +8,8 @@
     "github>gabe565/renovate-config:gitmoji"
   ],
   "ignorePresets": [":prHourlyLimit2"],
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "pre-commit": {
+    "enabled": true
+  }
 }
