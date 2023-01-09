@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "commitMessagePrefix": ":arrow_up:",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["lockFileMaintenance", "pin"],
+      "commitMessagePrefix": ":pushpin:"
+    },
+    {
+      "matchUpdateTypes": ["rollback"],
+      "commitMessagePrefix": ":arrow_down:"
+    }
+  ]
+}
