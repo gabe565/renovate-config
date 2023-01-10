@@ -11,5 +11,6 @@
   "automergeType": "branch",
   "pre-commit": {
     "enabled": true
-  }
+  },
+  "reviewersFromCodeOwners": true
 }
