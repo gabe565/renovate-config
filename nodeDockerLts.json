@@ -9,7 +9,6 @@
       "versioningTemplate": "node"
     }
   ],
-  "commitMessagePrefix": ":arrow_up:",
   "packageRules": [
     {
       "matchManagers": ["dockerfile", "docker-compose"],
