@@ -3,6 +3,7 @@
   "extends": [
     "config:base",
     "github>gabe565/renovate-config:nodeDockerLts",
+    "github>gabe565/renovate-config:nodeDevDependencies",
     "github>gabe565/renovate-config:githubActions",
     "github>gabe565/renovate-config:labels",
     "github>gabe565/renovate-config:gitmoji"
