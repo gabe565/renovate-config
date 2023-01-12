@@ -3,7 +3,7 @@
   "extends": [
     "config:base",
     "github>gabe565/renovate-config:node",
-    "github>gabe565/renovate-config:github-actions",
+    "github>gabe565/renovate-config:githubActions",
     "github>gabe565/renovate-config:labels",
     "github>gabe565/renovate-config:gitmoji"
   ],
