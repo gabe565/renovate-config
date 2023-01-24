@@ -3,5 +3,11 @@
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["golang-version"],
+      "rangeStrategy": "bump"
+    }
   ]
 }
