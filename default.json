@@ -6,7 +6,8 @@
     "github>gabe565/renovate-config:nodeDevDependencies",
     "github>gabe565/renovate-config:githubActions",
     "github>gabe565/renovate-config:labels",
-    "github>gabe565/renovate-config:gitmoji"
+    "github>gabe565/renovate-config:gitmoji",
+    "github>gabe565/renovate-config:axiosPatchSchedule"
   ],
   "ignorePresets": [":prHourlyLimit2"],
   "automergeType": "pr",
