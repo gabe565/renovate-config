@@ -16,5 +16,6 @@
   "pre-commit": {
     "enabled": true
   },
-  "reviewersFromCodeOwners": true
+  "reviewersFromCodeOwners": true,
+  "transitiveRemediation": true
 }
