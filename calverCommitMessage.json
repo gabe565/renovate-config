@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["docker", "pypi"],
+      "matchPackagePatterns": ["home-assistant$", "esphome$"],
+      "extends": ["github>gabe565/renovate-config:fullVersion"]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/gurucomputing/headscale-ui"],
+      "extends": ["github>gabe565/renovate-config:fullVersion"]
+    }
+  ]
+}

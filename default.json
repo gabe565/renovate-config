@@ -8,7 +8,8 @@
     "github>gabe565/renovate-config:labels",
     "github>gabe565/renovate-config:gitmoji",
     "github>gabe565/renovate-config:axiosPatchSchedule",
-    "github>gabe565/renovate-config:bitnamiPatchSchedule"
+    "github>gabe565/renovate-config:bitnamiPatchSchedule",
+    "github>gabe565/renovate-config:calverCommitMessage"
   ],
   "ignorePresets": [":prHourlyLimit2"],
   "automergeType": "pr",
