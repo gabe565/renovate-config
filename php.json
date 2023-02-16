@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["docker", "packagist"],
+      "matchPackageNames": ["spiral/roadrunner", "ghcr.io/roadrunner-server/roadrunner"],
+      "groupName": "RoadRunner"
+    }
+  ]
+}
