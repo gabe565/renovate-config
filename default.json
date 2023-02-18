@@ -2,6 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
+    ":disableRateLimiting",
+    ":automergePr",
+    ":enablePreCommit",
     "github>gabe565/renovate-config:nodeDockerLts",
     "github>gabe565/renovate-config:nodeDevDependencies",
     "github>gabe565/renovate-config:githubActions",
@@ -13,12 +16,7 @@
     "github>gabe565/renovate-config:php",
     "github>gabe565/renovate-config:versionRules"
   ],
-  "ignorePresets": [":prHourlyLimit2"],
-  "automergeType": "pr",
   "platformAutomerge": true,
-  "pre-commit": {
-    "enabled": true
-  },
   "reviewersFromCodeOwners": true,
   "transitiveRemediation": true
 }
