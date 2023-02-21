@@ -11,7 +11,7 @@
     "github>gabe565/renovate-config:labels",
     "github>gabe565/renovate-config:gitmoji",
     "github>gabe565/renovate-config:axiosPatchSchedule",
-    "github>gabe565/renovate-config:bitnamiPatchSchedule",
+    "github>gabe565/renovate-config:bitnamiSchedule",
     "github>gabe565/renovate-config:calverCommitMessage",
     "github>gabe565/renovate-config:php",
     "github>gabe565/renovate-config:versionRules"

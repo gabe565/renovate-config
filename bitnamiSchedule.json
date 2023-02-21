@@ -9,7 +9,7 @@
         "mongodb",
         "mariadb"
       ],
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["minor", "patch"],
       "extends": ["schedule:monthly"]
     }
   ]
