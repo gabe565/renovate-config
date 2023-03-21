@@ -4,7 +4,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackagePrefixes": ["ghcr.io/linuxserver/", "lscr.io/linuxserver/", "linuxserver/"],
-      "versioning": "regex:^(?<compatibility>.*?)-v?(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+)([\\-\\.]r?(?<build>.+))?)?$"
+      "versioning": "regex:^(?<compatibility>.+-)?v?(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+)([\\-\\.]r?(?<build>.+))?)?$"
     },
     {
       "matchDatasources": ["docker"],
