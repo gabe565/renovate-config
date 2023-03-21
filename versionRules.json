@@ -8,6 +8,12 @@
     },
     {
       "matchDatasources": ["docker"],
+      "matchPackagePrefixes": ["ghcr.io/linuxserver/", "lscr.io/linuxserver/", "linuxserver/"],
+      "matchCurrentValue": "/-libtorrentv1$/",
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<compatibility>.+)?$"
+    },
+    {
+      "matchDatasources": ["docker"],
       "matchPackageNames": ["sbs20/scanservjs"],
       "versioning": "regex:^(?<compatibility>.*)-v?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
     },
