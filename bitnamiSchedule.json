@@ -10,7 +10,7 @@
         "mariadb"
       ],
       "matchUpdateTypes": ["minor", "patch"],
-      "extends": ["schedule:monthly"]
+      "extends": ["schedule:quarterly"]
     }
   ]
 }
