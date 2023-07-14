@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["prettier", "eslint-plugin-prettier"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "Prettier"
+    }
+  ]
+}
