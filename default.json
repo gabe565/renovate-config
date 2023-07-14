@@ -18,5 +18,8 @@
   ],
   "platformAutomerge": true,
   "reviewersFromCodeOwners": true,
-  "transitiveRemediation": true
+  "transitiveRemediation": true,
+  "git-submodules": {
+    "enabled": true
+  }
 }
