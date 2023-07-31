@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["prettier", "eslint-plugin-prettier"],
+      "matchPackageNames": ["prettier", "eslint-plugin-prettier", "@vue/eslint-config-prettier"],
       "matchUpdateTypes": ["major"],
       "groupName": "Prettier"
     }
