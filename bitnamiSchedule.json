@@ -2,6 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "matchDatasources": ["helm"],
+      "matchPackageNames": [
+        "postgresql",
+        "redis",
+        "mongodb",
+        "mariadb"
+      ],
+      "matchUpdateTypes": ["minor", "patch"],
+      "extends": ["schedule:quarterly"]
+    },
+    {
       "matchDatasources": ["docker"],
       "matchSourceUrls": ["https://github.com/bitnami/charts"],
       "matchUpdateTypes": ["minor", "patch"],
