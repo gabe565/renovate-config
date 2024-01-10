@@ -16,7 +16,8 @@
     "github>gabe565/renovate-config:calverCommitMessage",
     "github>gabe565/renovate-config:php",
     "github>gabe565/renovate-config:versionRules",
-    "github>gabe565/renovate-config:prettierGroup"
+    "github>gabe565/renovate-config:prettierGroup",
+    "github>gabe565/renovate-config:vite"
   ],
   "platformAutomerge": true,
   "reviewersFromCodeOwners": true,
