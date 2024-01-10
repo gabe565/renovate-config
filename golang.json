@@ -8,7 +8,13 @@
     {
       "matchDatasources": ["golang-version"],
       "rangeStrategy": "bump",
-      "commitMessageTopic": "{{depName}}"
+      "commitMessageTopic": "{{depName}}",
+      "groupName": "Go"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["golang"],
+      "groupName": "Go"
     }
   ]
 }
