@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["axios"],
+      "matchDepNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "extends": ["schedule:monthly"]
     }

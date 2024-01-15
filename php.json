@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["docker", "packagist"],
-      "matchPackageNames": ["spiral/roadrunner", "ghcr.io/roadrunner-server/roadrunner"],
+      "matchDepNames": ["spiral/roadrunner", "ghcr.io/roadrunner-server/roadrunner"],
       "groupName": "RoadRunner"
     }
   ]

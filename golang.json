@@ -13,7 +13,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["golang"],
+      "matchDepNames": ["golang"],
       "groupName": "Go"
     }
   ]

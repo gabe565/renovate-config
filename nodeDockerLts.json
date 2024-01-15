@@ -12,7 +12,7 @@
   "packageRules": [
     {
       "matchManagers": ["dockerfile", "docker-compose"],
-      "matchPackageNames": ["node"],
+      "matchDepNames": ["node"],
       "enabled": false
     }
   ]

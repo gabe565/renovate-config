@@ -8,7 +8,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["ghcr.io/gurucomputing/headscale-ui"],
+      "matchDepNames": ["ghcr.io/gurucomputing/headscale-ui"],
       "extends": ["github>gabe565/renovate-config:fullVersion"]
     }
   ]

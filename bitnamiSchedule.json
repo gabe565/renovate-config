@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["helm"],
-      "matchPackageNames": [
+      "matchDepNames": [
         "postgresql",
         "redis",
         "mongodb",
