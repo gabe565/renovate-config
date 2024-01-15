@@ -19,6 +19,7 @@
     "github>gabe565/renovate-config:prettierGroup",
     "github>gabe565/renovate-config:vite"
   ],
+  "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
   "platformAutomerge": true,
   "reviewersFromCodeOwners": true,
   "transitiveRemediation": true,
