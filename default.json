@@ -7,6 +7,7 @@
     ":enablePreCommit",
     ":semanticCommits",
     ":maintainLockFilesMonthly",
+    "github>gabe565/renovate-config:golang",
     "github>gabe565/renovate-config:nodeDockerLts",
     "github>gabe565/renovate-config:nodeDevDependencies",
     "github>gabe565/renovate-config:githubActions",
