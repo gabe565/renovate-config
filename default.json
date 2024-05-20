@@ -6,6 +6,7 @@
     ":automergePr",
     ":enablePreCommit",
     ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
     ":maintainLockFilesMonthly",
     "github>gabe565/renovate-config:golang",
     "github>gabe565/renovate-config:nodeDockerLts",
