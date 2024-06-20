@@ -19,7 +19,8 @@
     "github>gabe565/renovate-config:versionRules",
     "github>gabe565/renovate-config:prettierGroup",
     "github>gabe565/renovate-config:vite",
-    "github>gabe565/renovate-config:iconify"
+    "github>gabe565/renovate-config:iconify",
+    "github>gabe565/renovate-config:fontsource"
   ],
   "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
   "platformAutomerge": true,
