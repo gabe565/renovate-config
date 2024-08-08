@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["@fontsource/"],
+      "matchPackagePatterns": ["^@fontsource/"],
       "groupName": ["fonts"]
     }
   ]

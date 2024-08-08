@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "matchPackagePrefixes": ["@iconify-json/"],
+      "matchPackagePatterns": ["^@iconify-json/"],
       "groupName": ["icons"]
     }
   ]

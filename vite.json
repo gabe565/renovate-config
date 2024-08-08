@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePrefixes": ["vite", "@vitejs/"],
+      "matchPackagePatterns": ["^vite", "^@vitejs/"],
       "matchUpdateTypes": ["major"],
       "groupName": ["Vite"]
     }
