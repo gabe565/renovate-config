@@ -13,7 +13,6 @@
     "github>gabe565/renovate-config:nodeDockerLts",
     "github>gabe565/renovate-config:labels",
     "github>gabe565/renovate-config:axiosPatchSchedule",
-    "github>gabe565/renovate-config:bitnamiSchedule",
     "github>gabe565/renovate-config:calverCommitMessage",
     "github>gabe565/renovate-config:php",
     "github>gabe565/renovate-config:versionRules",
