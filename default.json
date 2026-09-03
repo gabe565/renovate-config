@@ -9,6 +9,7 @@
     ":semanticCommitTypeAll(chore)",
     ":maintainLockFilesMonthly",
     "helpers:pinGitHubActionDigestsToSemver",
+    "security:minimumReleaseAgeNpm",
     "github>gabe565/renovate-config:golang",
     "github>gabe565/renovate-config:nodeDockerLts",
     "github>gabe565/renovate-config:labels",
