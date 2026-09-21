@@ -8,6 +8,15 @@
         "imageName: ['\"]?(?<depName>.+?):(?<currentValue>[^@\\s'\"]+)(?:@(?<currentDigest>sha256:[a-f0-9]+))?['\"]?"
       ],
       "datasourceTemplate": "docker"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/\\.yaml$/"],
+      "matchStrings": [
+        "imageName: ['\"]?(?<packageName>ghcr\\.io/cloudnative-pg/postgresql):(?<currentValue>\\d+\\.\\d+-(?:minimal|standard|system)-[a-z]+)(?:@(?<currentDigest>sha256:[a-f0-9]+))?['\"]?"
+      ],
+      "depNameTemplate": "cloudnative-pg/postgresql-debian",
+      "datasourceTemplate": "docker"
     }
   ],
   "packageRules": [
@@ -15,6 +24,20 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["ghcr.io/cloudnative-pg/postgresql"],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)-(?<compatibility>.+)$"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["cloudnative-pg/postgresql-debian"],
+      "versionCompatibility": "^\\d+\\.\\d+-(?<compatibility>minimal|standard|system)-(?<version>[a-z]+)$",
+      "versioning": "debian",
+      "commitMessageTopic": "CloudNativePG Debian release",
+      "commitMessageExtra": "to {{newVersion}}"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchDepNames": ["cloudnative-pg/postgresql-debian"],
+      "matchUpdateTypes": ["digest"],
+      "enabled": false
     }
   ]
 }
